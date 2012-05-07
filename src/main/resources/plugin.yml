@@ -1,0 +1,8 @@
+author: Tjs238
+database: false
+description: Give your users money when they kill mobs
+generator: http://dinnerbone.com/minecraft/tools/pluginator/
+main: me.tjs238.plugins.imobster.Imobster
+name: iMobster
+startup: postworld
+version: '1.0'
