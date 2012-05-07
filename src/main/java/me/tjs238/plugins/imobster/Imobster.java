@@ -55,14 +55,7 @@ public class Imobster extends JavaPlugin implements Listener {
     public void log(String message){
         log.info(prefix+message);
     }
-
     @EventHandler
-    public void onEntityDamage(EntityDamageByEntityEvent event) {
-        if (!(event.getDamager() instanceof Player)) {
-            return;
-        }
-        Player player = (Player)event.getDamager();
-    }
     public void onEntityDeath(EntityDeathEvent event) {
         if (!(event.getEntity().getKiller() instanceof Player)) {
             return;
@@ -146,9 +139,6 @@ public class Imobster extends JavaPlugin implements Listener {
                 economy.depositPlayer(player.getPlayerListName(), 100);
                 player.sendMessage(ChatColor.GRAY+"You have recived $100 for killing a ");
             }
-        }
-        if (player.hasPermission("dc.mob")) {
-            economy.depositPlayer(player.getPlayerListName(), 100);
         }
     }
 }
