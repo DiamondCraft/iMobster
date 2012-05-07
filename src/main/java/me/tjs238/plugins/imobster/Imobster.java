@@ -62,84 +62,94 @@ public class Imobster extends JavaPlugin implements Listener {
         }
         Player player = event.getEntity().getKiller();
         if (event.getEntity() instanceof Blaze) {
-            economy.depositPlayer(player.getPlayerListName(), 100);
-            player.sendMessage(ChatColor.GRAY+"You have recived $100 for killing a Blaze!");
+            economy.depositPlayer(player.getPlayerListName(), 1);
+            player.sendMessage(ChatColor.GRAY+"You have recived $1 for killing a Blaze!");
         } else if (event.getEntity() instanceof Ocelot) {
-            economy.depositPlayer(player.getPlayerListName(), 100);
-            player.sendMessage(ChatColor.GRAY+"You have recived $100 for killing an Ocelot");
+            economy.depositPlayer(player.getPlayerListName(), 1);
+            player.sendMessage(ChatColor.GRAY+"You have recived $1 for killing an Ocelot");
         } else if (event.getEntity() instanceof CaveSpider) {
-            economy.depositPlayer(player.getPlayerListName(), 100);
-            player.sendMessage(ChatColor.GRAY+"You have recived $100 for killing a CaveSpider");
+            economy.depositPlayer(player.getPlayerListName(), 7);
+            player.sendMessage(ChatColor.GRAY+"You have recived $7 for killing a CaveSpider");
         } else if (event.getEntity() instanceof Chicken) {
-            economy.depositPlayer(player.getPlayerListName(), 100);
-            player.sendMessage(ChatColor.GRAY+"You have recived $100 for killing a Chicken");
+            economy.depositPlayer(player.getPlayerListName(), 1);
+            player.sendMessage(ChatColor.GRAY+"You have recived $1 for killing a Chicken");
         } else if (event.getEntity() instanceof Cow) {
-            economy.depositPlayer(player.getPlayerListName(), 100);
-            player.sendMessage(ChatColor.GRAY+"You have recived $100 for killing a Cow");
+            economy.depositPlayer(player.getPlayerListName(), 1);
+            player.sendMessage(ChatColor.GRAY+"You have recived $1 for killing a Cow");
         } else if (event.getEntity() instanceof Creeper) {
-            economy.depositPlayer(player.getPlayerListName(), 100);
-            player.sendMessage(ChatColor.GRAY+"You have recived $100 for killing a Creeper");
+            economy.depositPlayer(player.getPlayerListName(), 6);
+            player.sendMessage(ChatColor.GRAY+"You have recived $6 for killing a Creeper");
         } else if (event.getEntity() instanceof EnderDragon) {
-            economy.depositPlayer(player.getPlayerListName(), 100);
-            player.sendMessage(ChatColor.GRAY+"You have recived $100 for killing an EnderDragon");
+            economy.depositPlayer(player.getPlayerListName(), 1);
+            player.sendMessage(ChatColor.GRAY+"You have recived $1 for killing an EnderDragon");
         } else if (event.getEntity() instanceof Enderman) {
-            economy.depositPlayer(player.getPlayerListName(), 100);
-            player.sendMessage(ChatColor.GRAY+"You have recived $100 for killing an Enderman");
+            economy.depositPlayer(player.getPlayerListName(), 8);
+            player.sendMessage(ChatColor.GRAY+"You have recived $8 for killing an Enderman");
         } else if (event.getEntity() instanceof Ghast) {
-            economy.depositPlayer(player.getPlayerListName(), 100);
-            player.sendMessage(ChatColor.GRAY+"You have recived $100 for killing a Ghast");
+            economy.depositPlayer(player.getPlayerListName(), 1);
+            player.sendMessage(ChatColor.GRAY+"You have recived $1 for killing a Ghast");
         } else if (event.getEntity() instanceof Giant) {
-            economy.depositPlayer(player.getPlayerListName(), 100);
-            player.sendMessage(ChatColor.GRAY+"You have recived $100 for killing a Giant");
+            economy.depositPlayer(player.getPlayerListName(), 1);
+            player.sendMessage(ChatColor.GRAY+"You have recived $1 for killing a Giant");
         } else if (event.getEntity() instanceof IronGolem) {
-            economy.depositPlayer(player.getPlayerListName(), 100);
-            player.sendMessage(ChatColor.GRAY+"You have recived $100 for killing an IronGolem");
+            economy.depositPlayer(player.getPlayerListName(), 1);
+            player.sendMessage(ChatColor.GRAY+"You have recived $1 for killing an IronGolem");
         } else if (event.getEntity() instanceof MagmaCube) {
-            economy.depositPlayer(player.getPlayerListName(), 100);
-            player.sendMessage(ChatColor.GRAY+"You have recived $100 for killing a MagmaCube");
+            economy.depositPlayer(player.getPlayerListName(), 1);
+            player.sendMessage(ChatColor.GRAY+"You have recived $1 for killing a MagmaCube");
         } else if (event.getEntity() instanceof MushroomCow) {
-            economy.depositPlayer(player.getPlayerListName(), 100);
-            player.sendMessage(ChatColor.GRAY+"You have recived $100 for killing a Mushroom Cow");
+            economy.depositPlayer(player.getPlayerListName(), 1);
+            player.sendMessage(ChatColor.GRAY+"You have recived $1 for killing a Mushroom Cow");
         } else if (event.getEntity() instanceof Pig) {
-            economy.depositPlayer(player.getPlayerListName(), 100);
-            player.sendMessage(ChatColor.GRAY+"You have recived $100 for killing a Pig");
+            economy.depositPlayer(player.getPlayerListName(), 1);
+            player.sendMessage(ChatColor.GRAY+"You have recived $1 for killing a Pig");
         } else if (event.getEntity() instanceof PigZombie) {
-            economy.depositPlayer(player.getPlayerListName(), 100);
-            player.sendMessage(ChatColor.GRAY+"You have recived $100 for killing a PigZombie");
+            economy.depositPlayer(player.getPlayerListName(), 1);
+            player.sendMessage(ChatColor.GRAY+"You have recived $1 for killing a PigZombie");
         } else if (event.getEntity() instanceof Sheep) {
-            economy.depositPlayer(player.getPlayerListName(), 100);
-            player.sendMessage(ChatColor.GRAY+"You have recived $100 for killing a Sheep");
+            economy.depositPlayer(player.getPlayerListName(), 1);
+            player.sendMessage(ChatColor.GRAY+"You have recived $1 for killing a Sheep");
         } else if (event.getEntity() instanceof Silverfish) {
-            economy.depositPlayer(player.getPlayerListName(), 100);
-            player.sendMessage(ChatColor.GRAY+"You have recived $100 for killing a Silverfish");
+            economy.depositPlayer(player.getPlayerListName(), 1);
+            player.sendMessage(ChatColor.GRAY+"You have recived $1 for killing a Silverfish");
         } else if (event.getEntity() instanceof Skeleton) {
-            economy.depositPlayer(player.getPlayerListName(), 100);
-            player.sendMessage(ChatColor.GRAY+"You have recived $100 for killing a Skeleton");
+            economy.depositPlayer(player.getPlayerListName(), 1);
+            player.sendMessage(ChatColor.GRAY+"You have recived $1 for killing a Skeleton");
         } else if (event.getEntity() instanceof Slime) {
-            economy.depositPlayer(player.getPlayerListName(), 100);
-            player.sendMessage(ChatColor.GRAY+"You have recived $100 for killing a Slime");
+            economy.depositPlayer(player.getPlayerListName(), 2);
+            player.sendMessage(ChatColor.GRAY+"You have recived $2 for killing a Slime");
         } else if (event.getEntity() instanceof Snowman) {
-            economy.depositPlayer(player.getPlayerListName(), 100);
-            player.sendMessage(ChatColor.GRAY+"You have recived $100 for killing a Snowman");
+            economy.depositPlayer(player.getPlayerListName(), 1);
+            player.sendMessage(ChatColor.GRAY+"You have recived $1 for killing a Snowman");
         } else if (event.getEntity() instanceof Spider) {
-            economy.depositPlayer(player.getPlayerListName(), 100);
-            player.sendMessage(ChatColor.GRAY+"You have recived $100 for killing a Spider");
+            economy.depositPlayer(player.getPlayerListName(), 5);
+            player.sendMessage(ChatColor.GRAY+"You have recived $5 for killing a Spider");
         } else if (event.getEntity() instanceof Squid) {
-            economy.depositPlayer(player.getPlayerListName(), 100);
-            player.sendMessage(ChatColor.GRAY+"You have recived $100 for killing a Squid");
+            economy.depositPlayer(player.getPlayerListName(), 1);
+            player.sendMessage(ChatColor.GRAY+"You have recived $1 for killing a Squid");
         } else if (event.getEntity() instanceof Villager) {
-            economy.depositPlayer(player.getPlayerListName(), 100);
-            player.sendMessage(ChatColor.GRAY+"You have recived $100 for killing a Villager");
+            if (economy.has(player.getPlayerListName(), 5)) {
+                economy.withdrawPlayer(player.getPlayerListName(), 5);
+                player.sendMessage(ChatColor.GRAY+"You have lost $5 for killing a Villager");
+            } else {
+                event.getEntity().setHealth(1);
+                player.sendMessage(ChatColor.GRAY+"You need $5 in order to kill a Villager");
+            }
+            economy.depositPlayer(player.getPlayerListName(), 1);
+            player.sendMessage(ChatColor.GRAY+"You have recived $1 for killing a Villager");
         } else if (event.getEntity() instanceof Wolf) {
             Wolf w = (Wolf) event.getEntity();
             if(w.isTamed()) {
                 economy.depositPlayer(player.getPlayerListName(), 5);
                 player.sendMessage(ChatColor.GRAY+"You have recived $5 for killing a Tamed Wolf");
             } else {
-                economy.depositPlayer(player.getPlayerListName(), 100);
-                player.sendMessage(ChatColor.GRAY+"You have recived $100 for killing a ");
+                economy.depositPlayer(player.getPlayerListName(), 1);
+                player.sendMessage(ChatColor.GRAY+"You have recived $1 for killing a Wolf");
             }
-        }
+        } else if (event.getEntity() instanceof Zombie) {
+            economy.depositPlayer(player.getPlayerListName(), 5);
+            player.sendMessage(ChatColor.GRAY+"You have recived $5 for killing a Zombie");
+        } 
     }
 }
 
